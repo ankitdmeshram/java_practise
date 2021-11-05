@@ -107,29 +107,58 @@
 //  ***
 // ****
 //*****
+//
+//import java.util.Scanner;
+//
+//public class assignment {
+//    public static void main(String args[])
+//    {
+//        Scanner s = new Scanner(System.in);
+//        int row = s.nextInt();
+//        int col = row;
+//
+//        for(int i = 0; i < row; i++)
+//        {
+//            for(int j = 0; j < row; j++)
+//            {
+//                if(j >= (col-1))
+//                {
+//                    System.out.print("*");
+//                } else {
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//            col--;
+//        }
+//    }
+//}
+
+//=======================================================
+
+//Q.5 Half Pyramid using numbers
+
+//1
+//22
+//333
+//4444
+//55555
 
 import java.util.Scanner;
 
 public class assignment {
-    public static void main(String args[])
+    public static void main (String args[])
     {
         Scanner s = new Scanner(System.in);
         int row = s.nextInt();
-        int col = row;
 
         for(int i = 0; i < row; i++)
         {
-            for(int j = 0; j < row; j++)
+            for (int j = 0; j <= i; j++)
             {
-                if(j >= (col-1))
-                {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
+                System.out.print(i+1);
             }
             System.out.println();
-            col--;
         }
     }
 }
