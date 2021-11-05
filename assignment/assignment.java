@@ -102,6 +102,12 @@
 
 //Q.4 Half Pyramid after 180 deg rotation
 
+//    *
+//   **
+//  ***
+// ****
+//*****
+
 import java.util.Scanner;
 
 public class assignment {
