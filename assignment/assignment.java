@@ -144,21 +144,53 @@
 //4444
 //55555
 
-import java.util.Scanner;
+//import java.util.Scanner;
+//
+//public class assignment {
+//    public static void main (String args[])
+//    {
+//        Scanner s = new Scanner(System.in);
+//        int row = s.nextInt();
+//
+//        for(int i = 0; i < row; i++)
+//        {
+//            for (int j = 0; j <= i; j++)
+//            {
+//                System.out.print(i+1);
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
 
-public class assignment {
-    public static void main (String args[])
-    {
-        Scanner s = new Scanner(System.in);
-        int row = s.nextInt();
+//====================================================================
 
-        for(int i = 0; i < row; i++)
-        {
-            for (int j = 0; j <= i; j++)
-            {
-                System.out.print(i+1);
-            }
-            System.out.println();
-        }
-    }
-}
+//Q.6 Floyd's Triangle
+
+//1
+//23
+//456
+//78910
+//1112131415
+
+//import java.util.Scanner;
+//
+//public class assignment {
+//    public static void main (String args[])
+//    {
+//        Scanner s = new Scanner(System.in);
+//        int row = s.nextInt();
+//        int n = 1;
+//        for(int i = 0; i < row; i++)
+//        {
+//            for (int j = 0; j <= i; j++)
+//            {
+//                System.out.print(n);
+//                n++;
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
+
+
